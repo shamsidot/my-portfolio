@@ -245,38 +245,54 @@ export default function Portfolio() {
             </div>
           </div>
         </section> */}
-<section id="home" className="min-h-screen flex items-center justify-center px-6 pt-24 pb-16 relative overflow-hidden">
+<section
+  id="home"
+  className="min-h-screen flex items-center justify-center px-3 sm:px-6 pt-24 pb-16 relative overflow-hidden"
+>
   <div className="absolute inset-0 overflow-hidden">
     <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-indigo-50 to-blue-100 dark:from-gray-900 dark:to-indigo-900/20 opacity-80"></div>
   </div>
-  
-  <div className="max-w-4xl mx-auto text-center relative z-10">
+
+  <div className="w-full max-w-4xl mx-auto text-center relative z-10">
     <div className="transition-opacity duration-500">
-      {/* REPLACE THIS SECTION */}
-   <h1 className="text-[42px] sm:text-5xl md:text-7xl font-bold mb-6 leading-tight">
-  <span
-    className="
-      bg-gradient-to-r
-      from-indigo-500
-      via-purple-500
-      to-pink-500
-      bg-clip-text
-      text-transparent
-      bg-[length:200%_200%]
-      animate-gradient-pan
-      inline-block
-      animate-float-tilt
-      will-change-transform
-      whitespace-nowrap
-    "
-  >
-    Shahzaman Shamsi
-  </span>
-</h1>
-      {/* KEEP YOUR EXISTING SUBHEADING AND BUTTONS */}
+
+      {/* Responsive Name */}
+      <h1
+        className="
+          w-full
+          font-bold
+          mb-6
+          leading-tight
+          text-center
+          whitespace-nowrap
+          text-[clamp(28px,8.5vw,72px)]
+          tracking-[-0.03em]
+        "
+      >
+        <span
+          className="
+            bg-gradient-to-r
+            from-indigo-500
+            via-purple-500
+            to-pink-500
+            bg-clip-text
+            text-transparent
+            bg-[length:200%_200%]
+            animate-gradient-pan
+            animate-float-tilt
+            will-change-transform
+          "
+        >
+          Shahzaman Shamsi
+        </span>
+      </h1>
+
+      {/* Subheading */}
       <h2 className="text-xl md:text-2xl font-medium text-gray-600 dark:text-gray-300 mb-8">
         MERN Stack Developer & AI Enthusiast
       </h2>
+
+      {/* Your existing buttons */}
       <div className="flex flex-wrap justify-center gap-4">
         <a
           href="/documents/resume.pdf"
