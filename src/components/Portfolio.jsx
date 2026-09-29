@@ -295,7 +295,7 @@ export default function Portfolio() {
       {/* Your existing buttons */}
       <div className="flex flex-wrap justify-center gap-4">
         <a
-          href="/documents/resume.pdf"
+          href="/documents/ShahzamanShamsiAMUResume.pdf"
           download
           className="flex items-center px-6 py-3 bg-indigo-600 text-white rounded-full font-medium shadow-lg hover:bg-indigo-700 transition-all hover:scale-105"
         >
