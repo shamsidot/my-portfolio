@@ -253,8 +253,7 @@ export default function Portfolio() {
   <div className="max-w-4xl mx-auto text-center relative z-10">
     <div className="transition-opacity duration-500">
       {/* REPLACE THIS SECTION */}
-      {/* Hero Name */}
-<h1 className="text-[42px] sm:text-5xl md:text-7xl font-bold mb-6 leading-tight">
+   <h1 className="text-[42px] sm:text-5xl md:text-7xl font-bold mb-6 leading-tight">
   <span
     className="
       bg-gradient-to-r
@@ -271,18 +270,7 @@ export default function Portfolio() {
       whitespace-nowrap
     "
   >
-    {"Shahzaman Shamsi".split(" ").map((word, i) => (
-      <span
-        key={i}
-        className="inline-block mr-3"
-        style={{
-          animation: `letterPop 0.5s ease both ${i * 0.15}s`,
-          transformOrigin: "center bottom"
-        }}
-      >
-        {word}
-      </span>
-    ))}
+    Shahzaman Shamsi
   </span>
 </h1>
       {/* KEEP YOUR EXISTING SUBHEADING AND BUTTONS */}
