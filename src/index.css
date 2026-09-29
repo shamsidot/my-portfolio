@@ -1,13 +1,16 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.will-change-transform {
+  will-change: transform;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.backface-visible {
+  backface-visibility: visible;
+};
+@media (prefers-reduced-motion: reduce) {
+  .animate-gradient-pan,
+  .animate-float-tilt,
+  .letter-pop {
+    animation: none !important;
+  }
 }
