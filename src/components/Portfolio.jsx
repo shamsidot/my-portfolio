@@ -253,36 +253,38 @@ export default function Portfolio() {
   <div className="max-w-4xl mx-auto text-center relative z-10">
     <div className="transition-opacity duration-500">
       {/* REPLACE THIS SECTION */}
-      <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-        <span className="
-          bg-gradient-to-r 
-          from-indigo-500 
-          via-purple-500 
-          to-pink-500 
-          bg-clip-text 
-          text-transparent 
-          bg-[length:200%_200%]
-          animate-gradient-pan
-          inline-block
-          animate-float-tilt
-          will-change-transform
-          md:animate-float-tilt
-          
-        ">
-          {"Shahzaman Shamsi".split("").map((letter, i) => (
-            <span 
-              key={i}
-              className="inline-block"
-              style={{
-                animation: `letterPop 0.5s ease both ${i * 0.05}s`,
-                transformOrigin: 'center bottom'
-              }}
-            >
-              {letter === " " ? "\u00A0" : letter}
-            </span>
-          ))}
-        </span>
-      </h1>
+      {/* Hero Name */}
+<h1 className="text-[42px] sm:text-5xl md:text-7xl font-bold mb-6 leading-tight">
+  <span
+    className="
+      bg-gradient-to-r
+      from-indigo-500
+      via-purple-500
+      to-pink-500
+      bg-clip-text
+      text-transparent
+      bg-[length:200%_200%]
+      animate-gradient-pan
+      inline-block
+      animate-float-tilt
+      will-change-transform
+      whitespace-nowrap
+    "
+  >
+    {"Shahzaman Shamsi".split(" ").map((word, i) => (
+      <span
+        key={i}
+        className="inline-block mr-3"
+        style={{
+          animation: `letterPop 0.5s ease both ${i * 0.15}s`,
+          transformOrigin: "center bottom"
+        }}
+      >
+        {word}
+      </span>
+    ))}
+  </span>
+</h1>
       {/* KEEP YOUR EXISTING SUBHEADING AND BUTTONS */}
       <h2 className="text-xl md:text-2xl font-medium text-gray-600 dark:text-gray-300 mb-8">
         MERN Stack Developer & AI Enthusiast
