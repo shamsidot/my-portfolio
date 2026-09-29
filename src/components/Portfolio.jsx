@@ -289,7 +289,7 @@ export default function Portfolio() {
 
       {/* Subheading */}
       <h2 className="text-xl md:text-2xl font-medium text-gray-600 dark:text-gray-300 mb-8">
-        MERN Stack Developer & AI Enthusiast
+        Software Developer & AI Enthusiast
       </h2>
 
       {/* Your existing buttons */}
