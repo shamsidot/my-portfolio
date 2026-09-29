@@ -160,9 +160,9 @@ export default function Portfolio() {
         {/* Navbar */}
         <header className="fixed w-full z-40 backdrop-blur-md bg-white/80 dark:bg-gray-900/80 shadow-sm">
           <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-          <h1 className="text-[42px] sm:text-5xl md:text-6xl lg:text-7xl font-extrabold mb-4 leading-tight whitespace-nowrap">
-  <span className="text-indigo-600">Shahzaman Shamsi</span>
-</h1>
+            <h3 className="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
+              Shahzaman Shamsi
+            </h3>
             
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center gap-8">
